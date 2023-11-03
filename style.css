@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);  
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.contaner{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: aqua;
+    margin-top: 1rem;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input__contaner{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.36);
+    outline: none;
+    border-radius: 5px;
+}
+
+button{
+    height: 41px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.648);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+.text ul{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.36);
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: sans-serif;
+}
+
+.text ul k{
+    position: absolute;
+    right: 10px;
+    color: black;
+    top: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}  
+
+.text ul i{
+    position: absolute;
+    color: black;
+    right: 10px;
+    top: 20px;
+    font-size: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.complete{
+    text-decoration: line-through;
+}
